@@ -1,0 +1,9 @@
+astropy==6.1.6
+km3astro
+numpy
+pandas
+scipy
+uproot
+km3io
+voevent-parse
+requests

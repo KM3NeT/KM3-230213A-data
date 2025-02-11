@@ -1,0 +1,21 @@
+name: uhe_event
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - python=3.11
+  - cython
+  - pip
+  - pip:
+      - astropy<=6.1.6
+      - numpy
+      - pandas
+      - matplotlib
+      - ipython
+      - ipykernel
+      - uproot
+      - km3astro
+      - scipy
+      - requests
+      - km3io
+      - voevent-parse

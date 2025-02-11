@@ -1,0 +1,14 @@
+Figure_4_data,,,,,,,,
+Source,RA J2000 [deg],Dec J2000 [deg],Dist,Name,Method 1,Method 2,Method 3,Method 4
+#1,94.263708,-8.373833,0.57,NVSS  J061703−082225,true,false,false,false
+#2,94.0571,-6.8983,0.94,4FGL  J0616.2−0653,false,false,false,true
+#3,95.741858,-6.94777,1.66,RFC  J0622−0656,false,true,false,false
+#4,96.230542,-7.593528,1.92,NVSS  J062455−073536,false,false,false,true
+#5,94.586114,-9.907146,2.12,RFC  J0618−0954,false,true,false,false
+#6,91.998747,-8.58055,2.41,RFC  J0607−0834,true,true,true,true
+#7,92.416542,-6.251611,2.43,CRATES  J0609−0615,false,false,true,false
+#8,91.681443,-7.408397,2.63,RFC  J0606−0724,true,true,true,false
+#9,94.174198,-10.685682,2.88,RFC  J0616−1041,true,true,false,true
+#10,91.666542,-6.572528,2.89,NVSS  J060639−063421,true,false,false,false
+#11,91.359125,-7.992167,2.92,CRATES  J0605−0759,true,false,false,false
+#12,91.288708,-7.963250,2.99,NVSS  J060509−075747,true,false,false,false

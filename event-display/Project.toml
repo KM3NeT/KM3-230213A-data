@@ -1,0 +1,11 @@
+[deps]
+ColorSchemes = "35d6a980-a343-548e-a6ea-1d62b119f2f4"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+GLMakie = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
+GeometryBasics = "5c1252a2-5f33-56bf-86c9-59e7332b4326"
+KM3io = "2cab5852-6f21-4982-99b0-6a4792870cfb"
+RainbowAlga = "63f1f1a9-5054-400b-8c42-42c880e99857"
+
+[compat]
+RainbowAlga = "0.3.9"
+KM3io = "0.17"

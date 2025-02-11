@@ -1,0 +1,1 @@
+{"Source": "https://doi.org/10.1038/s41586-021-03256-1", "Description":"Flux measurement of the IceCube Glashow event", "Emin [GeV]":{"0":5640000.0},"Emax [GeV]":{"0":7200000.0},"FluxNorm [GeV.cm^-2.s.sr]":{"0":0.0000000019},"ErrorMinus [GeV.cm^-2.s.sr]":{"0":0.0000000008},"ErrorPlus [GeV.cm^-2.s.sr]":{"0":0.0000000113}}

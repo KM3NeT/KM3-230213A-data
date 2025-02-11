@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<voe:VOEvent
+      ivorn="ivo://km3net.org/VOEvent#KM3230213A"
+      role="observation" version="2.0"
+      xmlns:voe="http://www.ivoa.net/xml/VOEvent/v2.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xsi:schemaLocation="http://www.ivoa.net/xml/VOEvent/v2.0 http://www.ivoa.net/xml/VOEvent/VOEvent-v2.0.xsd">
+
+    <Who>
+    <AuthorIVORN>ivo://km3net.org</AuthorIVORN>
+    <Author>
+      <shortName>KM3NeT</shortName>
+      <contactName>KM3NeT Collaboration</contactName>
+      <contactEmail>opendata@km3net.de</contactEmail>
+    </Author>
+    <Date>2025-02-11T14:00:00</Date>
+    <Description>The KM3NeT Collaboration operating Cherenkov neutrino detectors</Description>
+  </Who>
+
+  <What>
+    <Param name="Detector" dataType='string' value="ARCA" />
+    <Param name="Energy" dataType='int' value="120" unit="PeV" />
+    <Description>Observation of the high-energy neutrino event KM3230213A</Description>
+  </What>
+
+  <WhereWhen>
+    <ObsDataLocation>
+        <ObservatoryLocation>
+            <AstroCoordSystem id="UTC-GEOD-TOPO" />
+            <AstroCoords coord_system_id="UTC-GEOD-TOPO">
+                <Position3D unit='deg-deg-m'>
+                    <Name1>longitude</Name1>
+                    <Name2>latitude</Name2>
+                    <Name3>elevation</Name3>
+                    <Value3>
+                        <C1>15.975552</C1>
+                        <C2>36.292201</C2>
+                        <C3>-3450.0</C3>
+                    </Value3>
+                </Position3D>
+            </AstroCoords>
+        </ObservatoryLocation>
+        <ObservationLocation>
+            <AstroCoordSystem id="UTC-ICRS-TOPO" />
+            <AstroCoords coord_system_id="UTC-ICRS-TOPO">
+                <Time unit="s">
+                    <TimeInstant>
+                        <ISOTime>2023-02-13T01:16:47</ISOTime>
+                    </TimeInstant>
+                </Time>
+                <Position2D unit="deg">
+                    <Name1>RA</Name1>
+                    <Name2>Dec</Name2>
+                    <Value2>
+                        <C1>94.3</C1>
+                        <C2>-7.8</C2>
+                    </Value2>
+                    <Error2Radius99>3.0</Error2Radius99>
+            		<Error2Radius90>2.2</Error2Radius90>
+                    <Error2Radius68>1.5</Error2Radius68>
+                    <Error2Radius50>1.2</Error2Radius50>
+                </Position2D>
+            </AstroCoords>
+        </ObservationLocation>
+    </ObsDataLocation>
+    <Description>The RA, Dec coordinates are of the neutrino.</Description>
+  </WhereWhen>
+
+  <How>
+      <Description>KM3NeT neutrino telescope</Description>
+      <Reference uri="http://km3net.org" type="url" />
+  </How>
+
+  <Citations>
+      <EventIVORN cite="followup"></EventIVORN>
+      <Description>This is the position of the neutrino.</Description>
+  </Citations>
+
+</voe:VOEvent>
