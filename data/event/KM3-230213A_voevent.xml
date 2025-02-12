@@ -1,6 +1,6 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <voe:VOEvent
-      ivorn="ivo://km3net.org/VOEvent#KM3230213A"
+      ivorn="ivo://km3net.org/VOEvent#KM3-230213A"
       role="observation" version="2.0"
       xmlns:voe="http://www.ivoa.net/xml/VOEvent/v2.0"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -19,9 +19,10 @@
   </Who>
 
   <What>
-    <Param name="Detector" dataType='string' value="ARCA" />
+    <Param name="Instrument" dataType='string' value="ARCA021" />
     <Param name="Energy" dataType='int' value="120" unit="PeV" />
-    <Description>Observation of the high-energy neutrino event KM3230213A</Description>
+    <Param name="Identifier" dataType='string' value="KM3-230213A" />
+    <Description>Observation of the high-energy neutrino event KM3-230213A</Description>
   </What>
 
   <WhereWhen>
@@ -71,10 +72,4 @@
       <Description>KM3NeT neutrino telescope</Description>
       <Reference uri="http://km3net.org" type="url" />
   </How>
-
-  <Citations>
-      <EventIVORN cite="followup"></EventIVORN>
-      <Description>This is the position of the neutrino.</Description>
-  </Citations>
-
 </voe:VOEvent>

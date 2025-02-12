@@ -1,0 +1,116 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "license": "https://spdx.org/licenses/BSD-3-Clause",
+    "codeRepository": "https://git.km3net.de/open-data/public-candidates/uhe-event",
+    "dateCreated": "2025-02-10",
+    "datePublished": "2025-02-12",
+    "dateModified": "2025-02-12",
+    "downloadUrl": "https://git.km3net.de/open-data/public-candidates/uhe-event",
+    "issueTracker": "https://git.km3net.de/open-data/public-candidates/uhe-event/issues",
+    "name": "Data for the KM3-230213A high energy event observation",
+    "version": "1.0.0",
+    "description": "his repository contains open data and methods to supplement the publication 'Observation of an Ultra-high-energy Cosmic Neutrino with KM3NeT'."",
+    "applicationCategory": "Astroparticle physics",
+    "releaseNotes": "First commit in line with paper publication.",
+    "developmentStatus": "active",
+    "readme": "https://git.km3net.de/open-data/public-candidates/uhe-event/README.md",
+    "softwareVersion": "1.0.0",
+    "keywords": [
+        "KM3NeT",
+        "neutrinos",
+        "ultra high energy"
+    ],
+    "programmingLanguage": [
+        "Python 3"
+    ],
+    "operatingSystem": [
+        "Linux",
+        "Windows"
+    ],
+    "softwareRequirements": [
+        "Python 3.11",
+    ],
+    "author": [
+       {
+            "@type": "Person",
+            "@id": "http://openscience.km3net.de",
+            "givenName": "KM3NeT",
+            "familyName": "Open Science",
+            "email": "opendata@km3net.de",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "KM3NeT collaboration"
+            }
+        }
+    ],
+    "contributor": [
+        {
+            "@type": "Person",
+            "givenName": "Luigi",
+            "familyName": "Fusco",
+            "email": "lfusco@km3net.de",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Universita degli studi di Salerno"
+            }
+        },
+        {
+            "@type": "Person",
+            "@id": "https://orcid.org/ 0000-0001-7821-8673",
+            "givenName": "Tamás",
+            "familyName": "Gál",
+            "email": "tamas.gal@fau.de",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "FAU Erlangen-Nürnberg"
+            }
+        },
+        {
+            "@type": "Person",
+            "@id": "https://orcid.org/0000-0001-6118-4817",
+            "givenName": "Aart",
+            "familyName": "Heijboer",
+            "email": "aheiboer.km3net.de",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Nikhef"
+            }
+        },
+        {
+            "@type": "Person",
+            "@id": "https://orcid.org/0000-0002-8860-5826",
+            "givenName": "Mathieu",
+            "familyName": "Lamoureux",
+            "email": "mlamoureux@km3net.de",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "UC Louvain"
+            }
+        },
+        {
+            "@type": "Person",
+            "@id": "https://orcid.org/0000-0003-1233-7738",
+            "givenName": "Jutta",
+            "familyName": "Schnabel",
+            "email": "jutta.schnabel@fau.de",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "FAU Erlangen-Nürnberg"
+            }
+        }
+    ],
+    "maintainer": [
+        {
+            "@type": "Person",
+            "@id": "http://openscience.km3net.de",
+            "givenName": "KM3NeT",
+            "familyName": "Open Science",
+            "email": "opendata@km3net.de",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "KM3NeT collaboration"
+            }
+        }
+    ]
+}
