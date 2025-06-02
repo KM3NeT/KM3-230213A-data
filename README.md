@@ -42,7 +42,7 @@ For the full use of all notebooks, you have to retrieve the full dataset for `/d
 
 ### Using mybinder
 
-Launch the repository on mybinder following this link: [https://mybinder.org/v2/gh/https://git.km3net.de/open-data/public-candidates/uhe-event/HEAD?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2FReading+Data.ipyn](https://mybinder.org/v2/gh/https://git.km3net.de/open-data/public-candidates/uhe-event/HEAD?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2FReading+Data.ipyn).
+Launch the repository on mybinder following this link: [https://mybinder.org/v2/gh/https://git.km3net.de/open-data/public-candidates/uhe-event/HEAD?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2FReading+Data.ipynb](https://mybinder.org/v2/gh/https://git.km3net.de/open-data/public-candidates/uhe-event/HEAD?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2FReading+Data.ipynb).
 
 ### Alternative: Run the repository locally
 
